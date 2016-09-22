@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Leaflet.Arc</title>
+        <style>
+
+            #map-wrapper {
+                padding: 20px;
+            }
+            #map {
+                height: 400px;
+                height: 90vh;
+            }
+
+            @media(min-width:992px) {
+                html, body, .container-fluid, .row, #map, #map-wrapper, #readme {
+                    height: 100%;
+                }
+
+                #readme {
+                    overflow-y: scroll;
+                }
+
+                #map-wrapper {
+                    padding: 0;
+                }
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div id="readme" class="col-md-5 col-lg-4"></div>
+                <div id="map-wrapper" class="col-md-7 col-lg-8">
+                    <div  id="map"></div>
+                </div>
+            </div>
+        </div>
+        <script src='//unpkg.com/showdown@1.4.2/dist/showdown.min.js' defer></script>
+        <link rel="stylesheet" href="//unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="//unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css"/>
+        <link rel="stylesheet" href="//unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css"/>
+        <script src="//unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js" defer></script>
+        <script src='//unpkg.com/leaflet-arc@1.0.1/bin/leaflet-arc.min.js' defer></script>
+        <script src='index.js' defer></script>
+    </body>
+</html>
