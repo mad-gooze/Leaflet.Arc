@@ -1,0 +1,33 @@
+{
+  "name": "leaflet-arc",
+  "version": "1.0.0",
+  "description": "Leaflet.js plugin for drawing Great Circle arcs using arc.js",
+  "main": "Leaflet.Arc.min.js",
+  "scripts": {
+    "build": "webpack -p",
+    "lint": "eslint src/",
+    "test": "npm run lint && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mad-gooze/Leaflet.Arc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mad-gooze/Leaflet.Arc/issues"
+  },
+  "homepage": "https://github.com/mad-gooze/Leaflet.Arc#readme",
+  "keywords": [
+    "leaflet",
+    "arc.js",
+    "geodesic",
+    "polyline"
+  ],
+  "dependencies": {
+    "arc": "^0.1.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.8.0"
+  }
+}
