@@ -1,6 +1,6 @@
 {
   "name": "leaflet-arc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Leaflet.js plugin for drawing Great Circle arcs using arc.js",
   "main": "Leaflet.Arc.min.js",
   "scripts": {
@@ -25,12 +25,12 @@
     "polyline"
   ],
   "dependencies": {
-    "arc": "^0.1.0"
+    "arc": "git+https://github.com/springmeyer/arc.js.git#b005df058b010d1c7aaf3aa451516d41294dac0e"
   },
   "devDependencies": {
-    "babel-plugin-transform-object-rest-spread": "^6.8.0",
     "babel-eslint": "^6.1.2",
     "babel-loader": "^6.2.5",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
     "babel-preset-es2015": "^6.14.0",
     "eslint": "^3.5.0",
     "eslint-config-yandex": "^1.0.6",

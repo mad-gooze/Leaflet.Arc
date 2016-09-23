@@ -1,4 +1,4 @@
-import 'arc';
+import arc from 'arc';
 /**
  * Transform L.LatLng to {x, y} object
  * @param {L.LatLng} latlng
