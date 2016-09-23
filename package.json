@@ -1,8 +1,8 @@
 {
   "name": "leaflet-arc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Leaflet.js plugin for drawing Great Circle arcs using arc.js",
-  "main": "Leaflet.Arc.min.js",
+  "main": "bin/leaflet-arc.min.js",
   "scripts": {
     "build": "webpack -p",
     "lint": "eslint src/",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/mad-gooze/Leaflet.Arc.git"
   },
-  "author": "",
+  "author": "Alexey Gusev <mad.gooze@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mad-gooze/Leaflet.Arc/issues"
