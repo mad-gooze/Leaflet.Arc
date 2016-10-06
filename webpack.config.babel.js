@@ -10,7 +10,7 @@ const paths = {
     bin: 'bin'
 };
 
-var config = {
+const config = {
     entry: path.join(__dirname, paths.src, inputFile),
     devtool: 'source-map',
     output: {
