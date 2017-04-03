@@ -29,7 +29,7 @@ function initMap() {
     }).addTo(map);
 }
 
-get("https://unpkg.com/leaflet-arc@1.0.0/README.md", function (text) {
+get("https://unpkg.com/leaflet-arc@1.0.2/README.md", function (text) {
     document.getElementById("readme").innerHTML = new showdown.Converter().makeHtml(text);
     initMap()
 });
